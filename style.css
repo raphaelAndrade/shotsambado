@@ -264,11 +264,7 @@ body {
     text-align: center;
 }
 
-@media screen and (min-width: 992px) {
-    .entry-header h2 {
-        font-size: 70px;
-    }
-}
+
 
 /*------------------------------------------------------------
 ## countdown
@@ -1980,3 +1976,15 @@ body {
     top: 13px;
     color: #ffc107;
   }
+
+
+  @media (max-width: 1400px) {
+    .entry-header h2 {
+        font-size: 70px !important;
+    }
+    .containerCountdown {
+        top: -155px;
+        position: relative;
+    }
+
+}
