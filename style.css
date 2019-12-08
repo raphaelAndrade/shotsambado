@@ -304,6 +304,11 @@ body {
     text-align: center;
 }
 
+.buyFirst {
+    position: relative;
+    top: -168px
+}
+
  .btnBuy {
     /* background: hsl(0, 0%, 100%); */
     background: #f50648;
