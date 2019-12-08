@@ -251,6 +251,8 @@ body {
     -webkit-text-fill-color: transparent;
     position: relative;
     top: -110px;
+
+    here
 }
 
 .hero-content .entry-header .entry-meta-date {
@@ -265,13 +267,8 @@ body {
 }
 
 @media screen and (min-width: 992px) {
-    .hero-content .entry-header h2 {
-        /* font-size: 172px; */
-        font-size: 100px;
-    }
-
-    .hero-content .entry-header .entry-meta-date {
-        top: 60px;
+    .entry-header h2 {
+        font-size: 70px;
     }
 }
 
@@ -1958,10 +1955,30 @@ body {
     content: "03.";
 }
 
+/*------------------------------------------------------------
+# contador
+------------------------------------------------------------*/
+.containerCountdown {
+    color: #333;
+    text-align: center;
+  }
+ 
 
-
-
-
-
-
-
+.containerCountdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .containerCountdown li span {
+    display: block;
+    font-size: 4.5rem;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    position: relative;
+    top: 13px;
+    color: #ffc107;
+  }
